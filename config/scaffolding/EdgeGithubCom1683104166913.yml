@@ -1,0 +1,12 @@
+version: "1.0"
+info:
+  model: int-scaffold
+services:
+- serviceName: edge.githubcom1683104166913.integrations:FlowServiceGit
+  packages:
+  - name: EdgeGithubCom1683104166913
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.295
